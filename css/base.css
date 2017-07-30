@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*
+* @Author: Administrator
+* @Date:   2017-05-08 11:35:51
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-05-08 14:42:11
+*/
+body, div, a, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, li, dt, dd, input {
+  margin: 0;
+  padding: 0;
+  font-family: "微软雅黑";
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #444;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+input, img {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+  outline-style: none;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+@media screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+@media screen and (width: 414px) {
+  html {
+    font-size: 20.7px;
+  }
+}
+@media screen and (width: 380px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
